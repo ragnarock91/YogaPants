@@ -9,24 +9,16 @@
 Pod::Spec.new do |s|
   s.name             = 'YogaPants'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YogaPants.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'Wrapper for the YogaKit to autogenerate layouts from JSON configs.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This library helps you generate UI components and layout them based on a JSON file that specifies all the configuration needed to have a functional UI
                        DESC
 
-  s.homepage         = 'https://github.com/ricardo quintero/YogaPants'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/ragnarock91/YogaPants'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ricardo quintero' => 'ricardo.quintero@schibsted.com' }
-  s.source           = { :git => 'https://github.com/ricardo quintero/YogaPants.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'ricardo quintero' => 'ragnarock91@gmail.com' }
+  s.source           = { :git => 'git@github.com:ragnarock91/YogaPants.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
@@ -38,5 +30,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'YogaKit', '~> 1.5'
 end

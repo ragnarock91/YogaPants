@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		087816B3DD2EAB83DEE25990 /* Pods-YogaPants_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaPants_Example.release.xcconfig"; path = "Target Support Files/Pods-YogaPants_Example/Pods-YogaPants_Example.release.xcconfig"; sourceTree = "<group>"; };
-		24BD8604AB15C38EDFDC333A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		24BD8604AB15C38EDFDC333A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* YogaPants_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YogaPants_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		78137DF96F6D1CEBE1D45BE3 /* Pods-YogaPants_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaPants_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YogaPants_Tests/Pods-YogaPants_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F93D17F3C142C52C8D3E32C /* Pods_YogaPants_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YogaPants_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A2488C62450B26E9910BF0 /* Pods_YogaPants_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YogaPants_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2953E514D8299DA05D0E656 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D2953E514D8299DA05D0E656 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E2D11B6C8F3B08379E940746 /* Pods-YogaPants_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaPants_Tests.release.xcconfig"; path = "Target Support Files/Pods-YogaPants_Tests/Pods-YogaPants_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E3CA141F136FACA672BE3E26 /* YogaPants.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YogaPants.podspec; path = ../YogaPants.podspec; sourceTree = "<group>"; };
+		E3CA141F136FACA672BE3E26 /* YogaPants.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YogaPants.podspec; path = ../YogaPants.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F9FA749300C82A6897CD0971 /* Pods-YogaPants_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaPants_Example.debug.xcconfig"; path = "Target Support Files/Pods-YogaPants_Example/Pods-YogaPants_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				78137DF96F6D1CEBE1D45BE3 /* Pods-YogaPants_Tests.debug.xcconfig */,
 				E2D11B6C8F3B08379E940746 /* Pods-YogaPants_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,16 @@
+PODS:
+  - YogaPants (0.1.0)
+
+DEPENDENCIES:
+  - YogaPants (from `../`)
+
+EXTERNAL SOURCES:
+  YogaPants:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YogaPants: 89eb2ba332694cf81c5e652684c35454fa284dc0
+
+PODFILE CHECKSUM: 4197e4528c62498568c94a2c5ae7034cc5905876
+
+COCOAPODS: 1.8.4

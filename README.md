@@ -1,4 +1,5 @@
 # YogaPants
+<p align="left"><img width=100% src="https://github.com/ragnarock91/YogaPants/blob/master/yogaPants.png"></p>
 
 [![CI Status](https://img.shields.io/travis/ricardo quintero/YogaPants.svg?style=flat)](https://travis-ci.org/ricardo quintero/YogaPants)
 [![Version](https://img.shields.io/cocoapods/v/YogaPants.svg?style=flat)](https://cocoapods.org/pods/YogaPants)
@@ -27,3 +28,5 @@ ricardo quintero, ricardo.quintero@schibsted.com
 ## License
 
 YogaPants is available under the MIT license. See the LICENSE file for more info.
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
