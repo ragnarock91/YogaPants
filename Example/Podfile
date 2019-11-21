@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YogaPants_Example' do
+  pod 'YogaPants', :path => '../'
+
+  target 'YogaPants_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

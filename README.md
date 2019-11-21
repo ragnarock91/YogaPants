@@ -1,0 +1,29 @@
+# YogaPants
+
+[![CI Status](https://img.shields.io/travis/ricardo quintero/YogaPants.svg?style=flat)](https://travis-ci.org/ricardo quintero/YogaPants)
+[![Version](https://img.shields.io/cocoapods/v/YogaPants.svg?style=flat)](https://cocoapods.org/pods/YogaPants)
+[![License](https://img.shields.io/cocoapods/l/YogaPants.svg?style=flat)](https://cocoapods.org/pods/YogaPants)
+[![Platform](https://img.shields.io/cocoapods/p/YogaPants.svg?style=flat)](https://cocoapods.org/pods/YogaPants)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+YogaPants is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'YogaPants'
+```
+
+## Author
+
+ricardo quintero, ricardo.quintero@schibsted.com
+
+## License
+
+YogaPants is available under the MIT license. See the LICENSE file for more info.
